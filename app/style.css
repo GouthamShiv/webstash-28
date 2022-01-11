@@ -12,7 +12,6 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    color: rgba(42, 42, 114);
     font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(to right, steelblue, lightblue);
 }
@@ -32,7 +31,8 @@ body {
     border-radius: 10px;
     margin-bottom: 2rem;
     font-family: inherit;
-    background-color: #2A2A72;
+    /* background-color: rgb(42, 42, 114); */
+    background-color: navy;
     box-shadow: 0 5px 10px rgba(154, 160,185, 0.05), 0 15px 40px rgba(0, 0, 0, 0.1);
 }
 
@@ -41,7 +41,7 @@ body {
 }
 
 .user-form input::placeholder {
-    color: #bbb;
+    color: lightblue;
 }
 
 .card {
@@ -51,7 +51,7 @@ body {
     margin: 0 1.5rem;
     max-width: 800px;
     border-radius: 20px;
-    background-color: #2A2A72;
+    background-color: navy;
     box-shadow: 0 5px 10px rgba(154, 160,185, 0.05), 0 15px 40px rgba(0, 0, 0, 0.1);
 }
 
@@ -59,7 +59,7 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 10px solid #2A2A72;
+    border: 10px solid navy;
 }
 
 .user-info {
@@ -92,8 +92,9 @@ body {
 
 .repo {
     opacity: 0.8;
-    color: black;
+    color: navy;
     font-size: 0.7rem;
+    font-weight: bold;
     border-radius: 5px;
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
