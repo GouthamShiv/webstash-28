@@ -60,6 +60,7 @@ body {
     height: 150px;
     border-radius: 50%;
     border: 10px solid navy;
+    border-color: lightsteelblue;
 }
 
 .user-info {
