@@ -45,7 +45,7 @@ body {
 }
 
 .card {
-    color: #bbb;
+    color: lightblue;
     display: flex;
     padding: 3rem;
     margin: 0 1.5rem;
